@@ -41,8 +41,8 @@ https://github.com/aaronlab/browsertrace/tree/main/examples
 
 Roadmap: https://github.com/aaronlab/browsertrace/blob/main/ROADMAP.md
 
-Open contribution issue:
-https://github.com/aaronlab/browsertrace/issues/25
+Launch feedback:
+https://github.com/aaronlab/browsertrace/issues/3
 
 Public-safe demo export:
 https://github.com/aaronlab/browsertrace/releases/download/v0.1.13/browsertrace-demo-public.html
