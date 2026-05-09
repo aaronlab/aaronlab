@@ -26,6 +26,12 @@ Repo: https://github.com/aaronlab/browsertrace
 
 Live demo: https://aaronlab.github.io/browsertrace/
 
+Computer-use guide:
+https://aaronlab.github.io/browsertrace/computer-use-agent-debugging.html
+
+Runnable examples:
+https://github.com/aaronlab/browsertrace/tree/main/examples
+
 Roadmap: https://github.com/aaronlab/browsertrace/blob/main/ROADMAP.md
 
 Good first issue:
