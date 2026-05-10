@@ -20,6 +20,7 @@ timelines.
 - Exports standalone HTML traces.
 - Supports public-safe exports that omit prompts, model I/O, screenshots, and
   URLs.
+- Supports Browser Use callback and run-hook tracing.
 - MIT licensed and local-first.
 
 Repo: https://github.com/aaronlab/browsertrace
@@ -29,8 +30,8 @@ Live demo: https://aaronlab.github.io/browsertrace/
 Try locally before PyPI publishing is enabled:
 
 ```bash
-uvx --from "browsertrace[ui] @ git+https://github.com/aaronlab/browsertrace@v0.1.14" browsertrace doctor
-uvx --from "browsertrace[ui] @ git+https://github.com/aaronlab/browsertrace@v0.1.14" browsertrace demo
+uvx --from "browsertrace[ui] @ git+https://github.com/aaronlab/browsertrace@v0.1.15" browsertrace doctor
+uvx --from "browsertrace[ui] @ git+https://github.com/aaronlab/browsertrace@v0.1.15" browsertrace demo
 ```
 
 Computer-use guide:
@@ -51,7 +52,7 @@ First PR Recipe:
 https://github.com/aaronlab/browsertrace/blob/main/CONTRIBUTING.md#first-pr-recipe keeps the first contribution small and reviewable.
 
 Public-safe demo export:
-https://github.com/aaronlab/browsertrace/releases/download/v0.1.14/browsertrace-demo-public.html
+https://github.com/aaronlab/browsertrace/releases/download/v0.1.15/browsertrace-demo-public.html
 
 ## Troubleshooting
 
