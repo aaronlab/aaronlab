@@ -34,6 +34,14 @@ uvx --from "browsertrace[ui]" browsertrace doctor
 uvx --from "browsertrace[ui]" browsertrace demo
 ```
 
+Persistent install:
+
+```bash
+pip install "browsertrace[ui]"
+browsertrace doctor
+browsertrace demo
+```
+
 Computer-use guide:
 https://aaronlab.github.io/browsertrace/computer-use-agent-debugging.html
 
