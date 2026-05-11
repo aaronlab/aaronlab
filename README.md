@@ -32,6 +32,7 @@ Try locally from PyPI:
 ```bash
 uvx --from "browsertrace[ui]" browsertrace doctor
 uvx --from "browsertrace[ui]" browsertrace demo
+uvx --from "browsertrace[ui]" browsertrace
 ```
 
 Persistent install:
@@ -40,6 +41,7 @@ Persistent install:
 pip install "browsertrace[ui]"
 browsertrace doctor
 browsertrace demo
+browsertrace
 ```
 
 Computer-use guide:
