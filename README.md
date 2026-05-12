@@ -18,6 +18,7 @@ workflows are supported as secondary integrations.
 
 - Records screenshots, URLs, actions, model input/output, status, and errors.
 - Opens failed runs in a local web UI.
+- Compares failed-vs-good Browser Use runs with `browsertrace compare`.
 - Exports standalone HTML traces.
 - Supports public-safe exports that omit prompts, model I/O, screenshots, and
   URLs.
@@ -30,6 +31,9 @@ workflows are supported as secondary integrations.
 Repo: https://github.com/aaronlab/browsertrace
 
 Live demo: https://aaronlab.github.io/browsertrace/
+
+Demo story: Browser Use tries to upload `file:///tmp/browsertrace-report.html`,
+navigates to the local file path instead, and the upload preview never appears.
 
 Try locally from PyPI:
 
@@ -71,7 +75,7 @@ First PR Recipe:
 https://github.com/aaronlab/browsertrace/blob/main/CONTRIBUTING.md#first-pr-recipe keeps the first contribution small and reviewable.
 
 Public-safe demo export:
-https://github.com/aaronlab/browsertrace/releases/download/v0.1.18/browsertrace-demo-public.html
+https://github.com/aaronlab/browsertrace/releases/download/v0.1.19/browsertrace-demo-public.html
 
 ## Troubleshooting
 
